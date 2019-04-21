@@ -1,4 +1,4 @@
-package com.sparrow.zg.chapter_01;
+package main.java.com.sparrow.zg.chapter_01;
 
 /*
 
@@ -12,6 +12,7 @@ public class Manacher {
 
 	private static int maxLcpsLength(String str) {
 		char[] charArr = manacherString(str);
+		System.out.println(charArr);
 		int[] pArr = new int[charArr.length];//回文半径数组
 		int R = -1;//回文右边界
 		int C = -1;//回文中心

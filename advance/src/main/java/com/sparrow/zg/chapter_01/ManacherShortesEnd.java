@@ -1,4 +1,4 @@
-package com.sparrow.zg.chapter_01;
+package main.java.com.sparrow.zg.chapter_01;
 
 /**
  * 给定一个字符串,在后面添加字符,是整个字符串为回文字符串,求最少添加多少的字符?

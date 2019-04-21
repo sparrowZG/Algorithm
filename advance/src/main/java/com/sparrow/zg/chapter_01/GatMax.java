@@ -1,4 +1,4 @@
-package com.sparrow.zg.chapter_01;
+package main.java.com.sparrow.zg.chapter_01;
 
 
 public class GatMax {

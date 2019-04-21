@@ -1,4 +1,4 @@
-package com.sparrow.zg;
+package main.java.com.sparrow.zg;
 
 /**
  * Hello world!

@@ -1,8 +1,9 @@
-package com.sparrow.zg;
+package test.java.com.sparrow.zg;
 
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import static junit.framework.TestCase.assertTrue;
 
 /**
  * Unit test for simple App.
