@@ -1,5 +1,10 @@
 package main.java.com.sparrow.zg.leetcode;
 
+import com.alibaba.druid.pool.DruidDataSourceFactory;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,11 +34,20 @@ public class Code_315_RightSum {
 		mergerSort(nums, mid + 1, r, res);
 		merger(nums, l, mid, r, res);
 	}
+	private static void getConnection(){
+		DataSource ds = null;
+		try {
+			Connection c = ds.getConnection();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 
 	private static void merger(int[] nums, int l, int mid, int r, int[] res) {
 		int[] help = new int[r - l + 1];
 		int p1 = l;
 		int p2 = mid + 1;
+
 		int i = 0;
 		while (p1 <= mid && p2 <= r) {
 			if(nums[p1]<nums[p2]){
