@@ -1,4 +1,4 @@
-package basic_class_02;
+package main.java.com.sparrow.zg.kmp;
 
 public class Code_01_KMP {
 
