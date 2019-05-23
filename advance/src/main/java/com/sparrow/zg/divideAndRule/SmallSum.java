@@ -1,4 +1,4 @@
-package main.java.com.sparrow.zg;
+package main.java.com.sparrow.zg.divideAndRule;
 
 /**
  * 分治思想: 最小和问题:求一个数组每个数左边比当前数小的累加起来
