@@ -8,7 +8,6 @@ public class Bag {
 	}
 
 	public static int countMode(int[] arr, int res, int i) {
-
 		if (res == 40) {
 			return 1;
 		}

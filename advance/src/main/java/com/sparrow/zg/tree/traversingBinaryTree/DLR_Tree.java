@@ -169,21 +169,20 @@ public class DLR_Tree {
 		Stack<Node> stack1 = new Stack<>();
 		Stack<Node> stack2 = new Stack<>();
 		stack1.push(root);
-		while (!stack1.isEmpty()){
+		while (!stack1.isEmpty()) {
 			root = stack1.pop();
 			stack2.push(root);
-			if(root.left!=null){
+			if (root.left != null) {
 				stack1.push(root.left);
 			}
-			if(root.right != null){
+			if (root.right != null) {
 				stack1.push(root.right);
 			}
 		}
-		while(!stack2.isEmpty()){
+		while (!stack2.isEmpty()) {
 			root = stack2.pop();
-			System.out.print(root.value+"->");
+			System.out.print(root.value + "->");
 		}
 	}
-
 
 }
