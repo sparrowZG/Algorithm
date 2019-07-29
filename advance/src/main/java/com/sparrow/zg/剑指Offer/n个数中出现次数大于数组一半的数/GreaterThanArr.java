@@ -1,6 +1,5 @@
-package main.java.com.sparrow.zg.n个数中出现次数大于数组一半的数;
+package main.java.com.sparrow.zg.剑指Offer.n个数中出现次数大于数组一半的数;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
