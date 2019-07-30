@@ -1,6 +1,5 @@
-package main.java.com.sparrow.zg.tree.traversingBinaryTree;
+package main.java.com.sparrow.zg.二叉树.traversingBinaryTree;
 
-import javax.naming.InsufficientResourcesException;
 import java.util.Stack;
 
 /**

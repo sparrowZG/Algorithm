@@ -1,4 +1,4 @@
-package main.java.com.sparrow.zg.tree;
+package main.java.com.sparrow.zg.二叉树;
 
 class Node {
 	public Node left;

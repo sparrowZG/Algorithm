@@ -1,4 +1,4 @@
-package main.java.com.sparrow.zg.tree.trieTree;
+package main.java.com.sparrow.zg.二叉树.trieTree;
 
 public class Code_04_TrieTree {
 
